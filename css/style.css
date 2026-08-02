@@ -23,17 +23,17 @@ list-style:none;
 }
 
 .navbar{
-position:fixed;
-top:0;
-left:0;
-width:100%;
-padding:18px 8%;
-display:flex;
-justify-content:space-between;
-align-items:center;
-background:rgba(11,15,25,.75);
-backdrop-filter:blur(16px);
-z-index:1000;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:rgba(11,15,25,0.9);
+    backdrop-filter:blur(12px);
+    z-index:1000;
 }
 
 .logo img{
