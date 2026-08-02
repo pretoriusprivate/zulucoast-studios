@@ -37,8 +37,9 @@ z-index:1000;
 }
 
 .logo img{
-height:65px;
-transition:.4s;
+    width:260px;
+    height:auto;
+    display:block;
 }
 
 .logo img:hover{
