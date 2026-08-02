@@ -47,8 +47,9 @@ transform:scale(1.08);
 }
 
 .nav-links{
-display:flex;
-gap:35px;
+    display:flex;
+    gap:30px;
+    align-items:center;
 }
 
 .nav-links a{
@@ -56,8 +57,16 @@ font-weight:600;
 transition:.3s;
 }
 
+.nav-links a{
+    color:#fff;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:600;
+    transition:.3s;
+}
+
 .nav-links a:hover{
-color:#00d4ff;
+    color:#00d4ff;
 }
 
 .menu-btn{
@@ -126,4 +135,23 @@ color:#00d4ff;
 .secondary:hover{
 background:#00d4ff;
 color:#000;
+}
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:15px;
+        padding:15px;
+    }
+
+    .logo img{
+        width:180px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:18px;
+    }
+
 }
